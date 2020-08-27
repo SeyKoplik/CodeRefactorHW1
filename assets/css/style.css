@@ -1,0 +1,153 @@
+/* padding and border is included in the element's total width and height. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sets the background color for the entire website. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Sets attributes of the lettering for the company name and brand. */
+Header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Specifically shades the "SEO" part of the company name to distinguish business model */
+.seo {
+    color: #d9dcd6;
+}
+
+/* Directs navigation links for different areas of website */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Designs navigation link in unordered list. */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Sets all links to be colored white. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Sets all font sizes similar for everything with p tag. */
+p {
+    font-size: 16px;
+}
+
+/* Designs a backdrop for the website. */
+main {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Specifies image to float to the left of the text. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Speficies image to float to the right of the text. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Allows to set a width and margin for the sections to be even. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styling of text and design for everything for the information on the side. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Set up of margin size and color of text on the side. */
+aside {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Sizing and alignment of text on the side. */
+aside h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sizing and positioning of images on the side. */
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Design or display of text and info on the middle section. */
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Definitive sizing of images within the middle section. */
+section img {
+    max-height: 200px;
+}
+
+/* Setting up margins and size of words in middle section. */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Design and styling of footer on the bottom section. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Changed font size for design on bottom section. */
+footer h2 {
+    font-size: 20px;
+}
